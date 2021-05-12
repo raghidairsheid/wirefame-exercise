@@ -1,6 +1,6 @@
-body{
+/* body{
     font-family: Helvetica, sans-serif;
-}
+} */
 header{
     background-color:#444;
     margin-bottom: 30px;
@@ -24,46 +24,64 @@ nav ul li {
     margin-right: 70px;
     display: inline-block;
 }
-
 main{
     width: 960px;
     margin: 0px auto;
 }
-main article {
-    float: left;
-    margin: 20px 20px 20px 0px;
+main section:first-child{
+    /* width: 960px; */
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-main article:last-child{
-    margin-right: 0px;
+.img3{
+   margin-right: 20px;
+    float: left;
+    
 }
 
-section article img{
+main section:last-child{
     float: left;
-    margin: 10px;
+    margin-left: 0px;
+    margin-top: 30px;
 }
-section article div {
-    width: 20%;
-    float: left;
-    padding-left: 50px;
-    margin-bottom: 20px;
-}
-section h2 {
-    font-weight: bold;
+h2{
     font-size: 20px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline;
+    float:left;
+    text-align: left;
+    margin-left: 500px;
+    margin-top: -400px;
 }
-section p {
-    height: 300px;
+p {
+    float: left;
+    display: block;
+    margin-left: 500px;
+    /* padding-top: 5px; */
+    height: 370px;
     font-style: italic;
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    overflow: scroll;
+    margin-top: -375px
 }
-section button {
-    border: none;
+button {
+    float: right;
     font-size: 20px;
     color: #fff;
-    background: #000;
-    padding: 10px 30px;
+    background-color: #000;
+    height: 40px;
+    width: 125px;
+    font-size: 16px;
+    text-decoration: solid;
+    float: right;
+    margin-right: 335px;
+    margin-top: -70px;
+    transition:350px ;
 }
 section button:hover {
     background: #286428;
@@ -75,4 +93,3 @@ footer{
     clear : both;
     /* clear : left; */
 }
-
