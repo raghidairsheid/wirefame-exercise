@@ -26,10 +26,10 @@ nav ul li {
 }
 main{
     width: 960px;
-    margin: 30px;
+    margin: auto;
 }
 main section:first-child{
-    /* width: 960px; */
+    width: 960px;
     width: 100%;
     display: block;
     margin-left: auto;
@@ -85,8 +85,9 @@ button {
     transition:350px ;
     border-radius: 5px;
 }
-section button:hover {
+button:hover {
     background: #286428;
+    
 }
 
 footer{
